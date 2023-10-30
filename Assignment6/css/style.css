@@ -1,0 +1,93 @@
+/***************** Name : Ujjaval Eri ******************/
+/************File name : styles.css ***************/
+
+/* Body styles */
+html, body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: lightblue;
+  }
+  
+  /* Image styles */
+  img {
+	width: 230px;
+	height: 230px;
+  }
+  
+  /* Other Styles */
+  .accordion-panel {
+	display: none;
+	color: navy;
+  }
+  
+  .tab-panel.active {
+	display: block;
+  }
+  
+  ul.accordion {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	font-size: x-large; 
+  }
+  
+  button.accordion-control {
+	background-color: yellow;
+	padding: 20px;
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+	font-family: 'Times New Roman', Times, serif; 
+	font-size: large; 
+	border: 4px solid violet;
+  }
+  
+  .accordion-panel {
+	display: none;
+	padding: 10px;
+	font-size: large; 
+	width: 77%;
+	margin: 0 auto;
+  }
+  
+  ul.tab-list {
+	padding-inline-start: 0px;
+  }
+  
+  ul.tab-list li {
+	display: inline-block;
+	padding: 10px;
+	border: 2px dotted darkred;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: medium; 
+  }
+  
+  a:link {
+	color: black;
+	text-decoration: none;
+  }
+  
+  ul.tab-list li.active {
+	background-color: violet;
+  }
+  
+  ul.tab-list li.active a {
+	color: rgb(211, 10, 10);
+  }
+  
+  .tab-panel {
+	display: none;
+	width: 800px;
+	padding: 130px;
+	border: 3px double darkred;
+	margin: 0 auto;
+	color: darkgreen;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: x-large; 
+  }
+  
+  .tab-panel.active {
+	display: block;
+  }
+  
