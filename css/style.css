@@ -1,0 +1,61 @@
+/* css/style.css */
+
+body {
+    background-color: #4212e1; /* Light green background */
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #008000; /* Dark green text */
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.1); /* Light green box shadow */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #150080; /* Dark green text */
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #000d80; /* Dark green border */
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #001180; /* Dark green button */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #7ccb33; /* Greyed out button when disabled */
+    cursor: not-allowed;
+}
+
+#welcomeMessage {
+    color: rgb(0, 21, 128); /* Dark green text for welcome message */
+    margin-top: 20px;
+    display: none;
+}
